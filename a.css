@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap);
+
+
+    body {
+        margin: 0; 
+        padding: 0;
+        font-family: montserrat;
+    }
+    nav {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display:run-in;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 50px;
+        padding: 20px 100px;
+        color: #fff;
+        
+    }
+    .logo {
+        font-size: 35px;
+        color: hsl(0, 0%, 6%);
+        padding: 0 20px;
+    }
+    .menu ul li {
+        display: inline-block;
+        margin: 0 20px;
+    }
+    .menu ul li a {
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: Arial;
+        color: #080808;
+        padding: 15px 15px;
+    }
+    .menu ul li a:hover{
+        background: transparent;
+    }
+    
+    .socials a {
+        text-decoration:none;
+        background: rgb(201, 97, 0);
+        color: #080808;
+        padding: 10px 35px;
+    }
+    .full-page {
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(wallpaperflare.com_wallpaper.jpg);
+        background-position: center center;
+        background-size: cover;   
+    }     
+   
+    .about{
+        font-size: 30px;
+        text-align: left;
+    }
+    .aboutus
+    {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 150px;
+        
+        margin-right: 150px;
+        margin-bottom: 10px;
+        background: rgba(0,0,0,0.5);
+        width: 1000px;
+        height: 200px;
+        color: #fff;
+        border-radius: 10px;
+        margin: 2% auto;
+    }
